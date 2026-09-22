@@ -1,0 +1,266 @@
+{
+  "version": "1.0",
+  "purpose": "Technical ecommerce capability sweep for Scrapling",
+  "signals": [
+    {
+      "id": "product_name",
+      "group": "product_assortment",
+      "label": "Product name"
+    },
+    {
+      "id": "product_url",
+      "group": "product_assortment",
+      "label": "Product URL"
+    },
+    {
+      "id": "product_identifier",
+      "group": "product_assortment",
+      "label": "Product identifier / SKU"
+    },
+    {
+      "id": "variants",
+      "group": "product_assortment",
+      "label": "Variants"
+    },
+    {
+      "id": "new_product_presence",
+      "group": "product_assortment",
+      "label": "New product presence"
+    },
+    {
+      "id": "removed_product_presence",
+      "group": "product_assortment",
+      "label": "Removed product presence"
+    },
+    {
+      "id": "category_collection_placement",
+      "group": "product_assortment",
+      "label": "Category / collection placement"
+    },
+    {
+      "id": "product_count",
+      "group": "product_assortment",
+      "label": "Product count / assortment size"
+    },
+    {
+      "id": "product_description",
+      "group": "product_assortment",
+      "label": "Product description"
+    },
+    {
+      "id": "product_images",
+      "group": "product_assortment",
+      "label": "Product imagery"
+    },
+    {
+      "id": "featured_products",
+      "group": "merchandising",
+      "label": "Featured products"
+    },
+    {
+      "id": "bestseller_status",
+      "group": "merchandising",
+      "label": "Bestseller status / placement"
+    },
+    {
+      "id": "current_price",
+      "group": "pricing_offer",
+      "label": "Current price"
+    },
+    {
+      "id": "reference_price",
+      "group": "pricing_offer",
+      "label": "Compare-at / reference price"
+    },
+    {
+      "id": "sale_price",
+      "group": "pricing_offer",
+      "label": "Sale price"
+    },
+    {
+      "id": "discount_depth",
+      "group": "pricing_offer",
+      "label": "Discount depth"
+    },
+    {
+      "id": "promotion_text",
+      "group": "pricing_offer",
+      "label": "Promotion text"
+    },
+    {
+      "id": "promo_code",
+      "group": "pricing_offer",
+      "label": "Promo code when exposed"
+    },
+    {
+      "id": "bundle_offer",
+      "group": "pricing_offer",
+      "label": "Bundle / multipack offer"
+    },
+    {
+      "id": "pack_size",
+      "group": "pricing_offer",
+      "label": "Pack size"
+    },
+    {
+      "id": "subscription_available",
+      "group": "pricing_offer",
+      "label": "Subscription availability"
+    },
+    {
+      "id": "subscription_price",
+      "group": "pricing_offer",
+      "label": "Subscription price"
+    },
+    {
+      "id": "subscription_discount",
+      "group": "pricing_offer",
+      "label": "Subscription discount"
+    },
+    {
+      "id": "shipping_offer",
+      "group": "pricing_offer",
+      "label": "Shipping offer"
+    },
+    {
+      "id": "free_shipping_threshold",
+      "group": "pricing_offer",
+      "label": "Free-shipping threshold"
+    },
+    {
+      "id": "stock_status",
+      "group": "availability",
+      "label": "Stock status"
+    },
+    {
+      "id": "variant_availability",
+      "group": "availability",
+      "label": "Variant-level availability"
+    },
+    {
+      "id": "restock_state",
+      "group": "availability",
+      "label": "Restock state"
+    },
+    {
+      "id": "homepage_hero_product",
+      "group": "homepage_merchandising",
+      "label": "Homepage hero product"
+    },
+    {
+      "id": "homepage_hero_image",
+      "group": "homepage_merchandising",
+      "label": "Homepage hero image"
+    },
+    {
+      "id": "homepage_hero_copy",
+      "group": "homepage_merchandising",
+      "label": "Homepage hero headline / CTA"
+    },
+    {
+      "id": "announcement_bar",
+      "group": "homepage_merchandising",
+      "label": "Announcement bar"
+    },
+    {
+      "id": "homepage_promotional_blocks",
+      "group": "homepage_merchandising",
+      "label": "Homepage promotional blocks"
+    },
+    {
+      "id": "featured_collections",
+      "group": "homepage_merchandising",
+      "label": "Featured collections"
+    },
+    {
+      "id": "bestseller_blocks",
+      "group": "homepage_merchandising",
+      "label": "Bestseller blocks"
+    },
+    {
+      "id": "sale_launch_blocks",
+      "group": "homepage_merchandising",
+      "label": "Sale / launch blocks"
+    },
+    {
+      "id": "review_count",
+      "group": "reviews",
+      "label": "Review count"
+    },
+    {
+      "id": "rating",
+      "group": "reviews",
+      "label": "Rating"
+    },
+    {
+      "id": "review_text",
+      "group": "reviews",
+      "label": "Review text where accessible"
+    },
+    {
+      "id": "review_widget_access",
+      "group": "reviews",
+      "label": "Third-party review widget accessibility"
+    },
+    {
+      "id": "sitemap",
+      "group": "technical",
+      "label": "Sitemap availability"
+    },
+    {
+      "id": "structured_json",
+      "group": "technical",
+      "label": "Structured JSON / JSON-LD"
+    },
+    {
+      "id": "shopify_json",
+      "group": "technical",
+      "label": "Shopify JSON endpoints"
+    },
+    {
+      "id": "xhr_fetch_data",
+      "group": "technical",
+      "label": "XHR/fetch background data"
+    },
+    {
+      "id": "dynamic_js_content",
+      "group": "technical",
+      "label": "Dynamic JavaScript content"
+    },
+    {
+      "id": "browser_only_content",
+      "group": "technical",
+      "label": "Browser-only content"
+    },
+    {
+      "id": "screenshot_capture",
+      "group": "technical",
+      "label": "Screenshot capture"
+    },
+    {
+      "id": "adaptive_selector_recovery",
+      "group": "technical",
+      "label": "Adaptive selector recovery"
+    },
+    {
+      "id": "anti_bot_response",
+      "group": "technical",
+      "label": "Anti-bot handling"
+    },
+    {
+      "id": "proxy_requirement",
+      "group": "technical",
+      "label": "Proxy requirement"
+    },
+    {
+      "id": "session_requirement",
+      "group": "technical",
+      "label": "Persistent session requirement"
+    },
+    {
+      "id": "crawl_stability",
+      "group": "technical",
+      "label": "Crawl speed / stability"
+    }
+  ]
+}
