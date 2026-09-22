@@ -1,0 +1,36 @@
+name: Noetic Scrapling Benchmark
+
+on:
+  push:
+    paths:
+      - ".github/workflows/noetic-benchmark.yml"
+      - "noetic_benchmark/run_benchmark.py"
+      - "noetic_benchmark/sites.example.json"
+      - "noetic_benchmark/signal_catalog.json"
+  workflow_dispatch:
+
+jobs:
+  benchmark:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install Scrapling
+        run: |
+          python -m pip install --upgrade pip
+          pip install ".[all]"
+          scrapling install --force
+      - name: Run five-site benchmark
+        run: python noetic_benchmark/run_benchmark.py
+      - name: Upload benchmark artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: noetic-scrapling-benchmark
+          path: noetic_benchmark/results/
+          if-no-files-found: warn
