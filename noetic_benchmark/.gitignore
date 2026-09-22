@@ -1,0 +1,9 @@
+# Local benchmark inputs/results — never commit
+sites.local.json
+results/
+evidence/
+screenshots/
+*.har
+*.trace
+.env
+.env.*
