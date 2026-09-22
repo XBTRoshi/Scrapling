@@ -1,0 +1,30 @@
+{
+  "benchmark_name": "cci-five-site-capability-test",
+  "sites": [
+    {
+      "id": "site_1",
+      "url": "",
+      "profile_target": "straightforward Shopify store"
+    },
+    {
+      "id": "site_2",
+      "url": "",
+      "profile_target": "JavaScript-heavy DTC store"
+    },
+    {
+      "id": "site_3",
+      "url": "",
+      "profile_target": "stronger anti-bot protection"
+    },
+    {
+      "id": "site_4",
+      "url": "",
+      "profile_target": "rich merchandising / bundles / subscriptions / bestsellers"
+    },
+    {
+      "id": "site_5",
+      "url": "",
+      "profile_target": "different ecommerce stack or product category"
+    }
+  ]
+}
