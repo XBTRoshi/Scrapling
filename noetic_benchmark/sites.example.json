@@ -1,30 +1,36 @@
 {
   "benchmark_name": "cci-five-site-capability-test",
+  "category": "supplements",
   "sites": [
     {
       "id": "site_1",
-      "url": "",
-      "profile_target": "straightforward Shopify store"
+      "name": "Ritual",
+      "url": "https://ritual.com",
+      "profile_target": "subscription-led DTC supplement brand"
     },
     {
       "id": "site_2",
-      "url": "",
-      "profile_target": "JavaScript-heavy DTC store"
+      "name": "MaryRuth's",
+      "url": "https://www.maryruthorganics.com",
+      "profile_target": "broad supplement catalog with bundles, bestsellers and promotions"
     },
     {
       "id": "site_3",
-      "url": "",
-      "profile_target": "stronger anti-bot protection"
+      "name": "Needed",
+      "url": "https://thisisneeded.com",
+      "profile_target": "plans/bundles/subscriptions with strong recurring-offer merchandising"
     },
     {
       "id": "site_4",
-      "url": "",
-      "profile_target": "rich merchandising / bundles / subscriptions / bestsellers"
+      "name": "Transparent Labs",
+      "url": "https://www.transparentlabs.com",
+      "profile_target": "sports supplements with broad catalog, bundles and subscription mechanics"
     },
     {
       "id": "site_5",
-      "url": "",
-      "profile_target": "different ecommerce stack or product category"
+      "name": "Bloom Nutrition",
+      "url": "https://bloomnu.com",
+      "profile_target": "consumer wellness supplement brand with strong campaign and merchandising activity"
     }
   ]
 }
